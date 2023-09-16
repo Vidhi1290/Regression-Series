@@ -2,6 +2,10 @@
 
 Welcome to the DATASETS repository! 🚀
 
+[![GitHub issues](https://img.shields.io/github/issues/yourusername/DATASETS)](https://github.com/yourusername/DATASETS/issues)
+[![GitHub forks](https://img.shields.io/github/forks/yourusername/DATASETS)](https://github.com/yourusername/DATASETS/network)
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/DATASETS)](https://github.com/yourusername/DATASETS/stargazers)
+
 ### What's Inside?
 
 This repository contains Jupyter Notebook files that explore three fundamental regression models: **Simple Linear Regression**, **Multiple Linear Regression**, and **Logistic Regression**. Each notebook provides hands-on examples and explanations, making it easy for you to understand these models.
@@ -20,22 +24,19 @@ This repository contains Jupyter Notebook files that explore three fundamental r
 
 - 📉 **Logistic Regression**: Logistic Regression is a classification model used when the outcome is binary (e.g., yes/no, spam/not spam). It estimates the probability of the outcome being in a particular category based on one or more independent variables.
 
-### How to Use:
+### Code Snippets:
 
-1. Click on the notebook file you're interested in to open it.
-2. Follow the code and explanations to understand each regression model.
-3. Experiment with your own data or datasets to deepen your understanding.
-4. Feel free to reach out with questions or suggestions.
+Here's a quick look at code snippets from our notebooks:
 
-### Get Started:
+```python
+# Simple Linear Regression
+from sklearn.linear_model import LinearRegression
+model = LinearRegression()
 
-Explore the world of regression modeling and take your data science skills to the next level! 🌟
+# Multiple Linear Regression
+from sklearn.linear_model import LinearRegression
+model = LinearRegression()
 
-### Need Help?
-
-If you have questions or need assistance, don't hesitate to open an issue or contact us. Happy coding! 🤖
-
-### Connect with Us:
-
-You can find us on [GitHub](https://github.com/Vidhi1290) or [LinkedIn]([https://www.linkedin.com/in/yourusername](https://www.linkedin.com/in/vidhi-waghela-434663198/)https://www.linkedin.com/in/vidhi-waghela-434663198/). Let's learn and grow together! 🤝
-
+# Logistic Regression
+from sklearn.linear_model import LogisticRegression
+model = LogisticRegression()
